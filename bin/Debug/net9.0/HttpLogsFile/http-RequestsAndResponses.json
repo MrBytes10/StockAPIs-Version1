@@ -1,0 +1,203 @@
+================================================================================
+🌐 HTTP REQUEST/RESPONSE LOG
+📅 Timestamp: 2025-07-05 22:29:18.009 ((UTC+03:00) Nairobi)
+🔍 Trace ID: 0HNDRUT0U9CQ5:00000001
+⏱️  Duration: 2468ms
+================================================================================
+
+📤 REQUEST
+----------------------------------------
+Method: GET
+Path: /api/stock
+Remote IP: 127.0.0.1
+User Agent: Apache-HttpClient/4.5.5 (Java/17.0.12)
+
+📋 Request Headers:
+  Accept-Encoding: gzip,deflate
+  Connection: keep-alive
+  Host: localhost:7015
+  User-Agent: Apache-HttpClient/4.5.5 (Java/17.0.12)
+
+📥 RESPONSE
+----------------------------------------
+Status Code: 200 OK
+Content Type: application/json; charset=utf-8
+
+📋 Response Headers:
+  Content-Type: application/json; charset=utf-8
+
+📄 Response Body:
+[
+  {
+    "id": 1,
+    "symbol": "AALI",
+    "companyName": "Astra Agro Lestari Tbk.",
+    "purchase": 230.00,
+    "lastDividend": 2.30,
+    "industry": "Tech",
+    "marketCap": 234555556,
+    "comments": []
+  },
+  {
+    "id": 2,
+    "symbol": "TSLA",
+    "companyName": "Tesla",
+    "purchase": 100.00,
+    "lastDividend": 1.10,
+    "industry": "Automotive",
+    "marketCap": 2345999999,
+    "comments": []
+  },
+  {
+    "id": 3,
+    "symbol": "VTI",
+    "companyName": "Vanguard Total Investiments",
+    "purchase": 3300.00,
+    "lastDividend": 33.00,
+    "industry": "Index Fund",
+    "marketCap": 9999999999,
+    "comments": []
+  }
+]
+
+================================================================================
+
+================================================================================
+🌐 HTTP REQUEST/RESPONSE LOG
+📅 Timestamp: 2025-07-05 22:46:06.206 ((UTC+03:00) Nairobi)
+🔍 Trace ID: 0HNDRUT0U9CQ6:00000001
+⏱️  Duration: 489ms
+================================================================================
+
+📤 REQUEST
+----------------------------------------
+Method: GET
+Path: /api/stock/2
+Remote IP: 127.0.0.1
+User Agent: Apache-HttpClient/4.5.5 (Java/17.0.12)
+
+📋 Request Headers:
+  Accept-Encoding: gzip,deflate
+  Connection: keep-alive
+  Host: localhost:7015
+  User-Agent: Apache-HttpClient/4.5.5 (Java/17.0.12)
+
+📥 RESPONSE
+----------------------------------------
+Status Code: 200 OK
+Content Type: application/json; charset=utf-8
+
+📋 Response Headers:
+  Content-Type: application/json; charset=utf-8
+
+📄 Response Body:
+{
+  "id": 2,
+  "symbol": "TSLA",
+  "companyName": "Tesla",
+  "purchase": 100.00,
+  "lastDividend": 1.10,
+  "industry": "Automotive",
+  "marketCap": 2345999999,
+  "comments": []
+}
+
+================================================================================
+
+================================================================================
+🌐 HTTP REQUEST/RESPONSE LOG
+📅 Timestamp: 2025-07-06 12:30:00.672 ((UTC+03:00) Nairobi)
+🔍 Trace ID: 0HNDSDR4BT8DQ:00000001
+⏱️  Duration: 3399ms
+================================================================================
+
+📤 REQUEST
+----------------------------------------
+Method: GET
+Path: /api/stock/2
+Remote IP: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+📋 Request Headers:
+  Accept: */*
+  Accept-Encoding: gzip, deflate, br, zstd
+  Accept-Language: en-US,en;q=0.9
+  Cookie: .AspNetCore.Antiforgery.pYDVcaH4NUY=CfDJ8MO3LzvhetJMtEpHkXlqB7zjMmoksRqUVY6PqlMlVTH-CDkrheKqGSshwXp8zTxjqv-JZjr0LctNrAbnerYL_S5dgKr4VGBv4BtdHVhjfovoPG-CFyg-n1kXL0pRjD44En8ahfhpzdLfSkPdPYvkYZM; _ga=GA1.1.1559382876.1741878375; .AspNetCore.Antiforgery.wR7UGBWg3pQ=CfDJ8MO3LzvhetJMtEpHkXlqB7zbZWiyybbQ8bGG21K_Qq6cVcY3iziBNK-9dhs6NSjM2GxwevZXpXX5FL0Cf1-mnVYmRENNA9xO_Xn1oEurfl6exgysZKN-nsmf2emGAV7fWs2NbOI3Uq8mZ1bSu07LI5Q; .AspNetCore.Antiforgery.SjkLaH4e5ME=CfDJ8MO3LzvhetJMtEpHkXlqB7xESsEudiLpIkltdm9n8SfjG5mDQMg0OQj1iRvwUvGjs4BAaqIPuVbq0vZ7z4RXsDpjewHRVDuBdyGUGF2ApCvpiCLbqJtNdnrBH1CbOogWS3U3_wcnwmdNPRpx9e-Nm9A; .AspNetCore.Antiforgery.BjjINtxfnXk=CfDJ8FWxvE2ikE1EjQxiKfnQusglW3_sEF0dtgsGMZJKdx70rlB-55SdxJMWtKmMWkb7maTn_cb4diLtthSi6HXn2JifF1vLzsFR0edEdcX9ZJSaT1ZFBxJT2wl3eqeWS7nHPejiE1CcxGruENCblk6BNZA; .AspNetCore.Antiforgery.8OQEEoxDuso=CfDJ8FWxvE2ikE1EjQxiKfnQushjFjU_ElJ5we_FtSjT71j_LPAoWlzZFMZutWYSP6K-DYkYWge507KS4645Sb2NhzdvXQWHheRH1lz0DNP4lvZrNPHVrtjxiKcSV8a4qaP_CqHJ-sTorznhAZIXBrwR9A4; .AspNetCore.Antiforgery.AhKeMDX7XwY=CfDJ8FWxvE2ikE1EjQxiKfnQusikvWG4dl0sWNJAiw3NSxx33rZgqOIip0LFFUaFFxbIMbTWUFyjg59wGBfbpiksjR6gFqHES0K6G778CetDbbW-ewdOh8FCN5jRsQPFZ0Jcu0MzvZAu8QjZGkAXS1JZdvA; .AspNetCore.Antiforgery.WaGYNSn0P28=CfDJ8FWxvE2ikE1EjQxiKfnQusg6F8THiX5sKyBNKn2OHKDCQy5u1AiXxynHM5tnX8-yZ26I5vPzo8xUgLIl9dIBulByZncrDEiFeTdcKktCwtYawHYXg1zKReKKSX9f3WKHXPVkfM8L7bkEsATfOH1vuWM; .AspNetCore.Antiforgery.uicttDrLhko=CfDJ8FWxvE2ikE1EjQxiKfnQusjJiUg93tFvVG5TeaLcIBxz-upOIeODeEJTQw_NWe3Q6_yxwYUbC_jQYh9AJuOeFNq_6Y0WCgU9CID_kTuqn-jRX9ejRrQjZXj2yeyd9Jfy1eYiKc8LXUfCpsAjp4FbRqw; .AspNetCore.Antiforgery.gMEeFxiGxYA=CfDJ8FWxvE2ikE1EjQxiKfnQusjhTeNzzf5jzABRzIWE83NNSQc_jnTkEbsxoz_N-vsN77oylG-nBQwn_QNbK-iVAZi9ywCASkO_V2qmeagX_qdioByU87hzvd0rWYETmTfq0zXSUXsHmlWxY47yyGlmZE8; AdminAuth=CfDJ8FWxvE2ikE1EjQxiKfnQusglrUpvYZFNcOyA7kwflBsomBXZJ6LXiz4DO7NL4XdbSw1sGaYPR0taQwEwvLd7aL5E_-AAqmAa1ez6aiUILECTLhO81X2HYYblQ5n2fk7Om5xHaUB6pGM-JlfvgIR96G9VMgzTDBPWUQ4pCUSR6H_3d8ogsidp76KzT-fYqQom9UrKYqv7T_UpunaSHp5T8eDdCY5TE5PYxRNOsFG45P0cviy4ACFppuo7kffftDfN9j6-KFMZWofTnvrZw8cCsTaBr8iFEYztbMEhyDXilHFCu_lqcB68CwJSwjZVxHcNoUFndOLK6gEVfAZuwESLXLh-UfnbUlPAV696b-j2SbKyNK4NFAUdxUKxKMi5CS8Xzg6vkb-1zSq_TEYJVhIRCx3wMIGdlI3_L6adrPIfIP2i9jJ6OO1b25cgPylhtwNS8Jj_Okvi6h8E94RP0TycQIOmWYM9-iciIhn8btjYXUhby_Oi18Mzb90FLpfXhbjIoWjukbj_V5qwUMbWUdysrcXmGOMmLSeDqm-Kp7EJ1M5GaFPwbXrzXnNgun9vseGUbnespgpcHD6scz_1DWg_1BBXVBHGiGruz3k-DYdMO1eaD0XKhfFxcRNqXgltONxnP5niAYOdoNBKIdL465a4Gh26gV4VgQ7WdfYPka9lQTjvq-dKOLMSTx8ZJR6n63vGrUwaU01OxPcebQy8LniZO6WCCSP0Piyq1QEGkaPNX0ir73xkPKRDfTPZDRX_bxTUnJG4R_UlcDpNFwgvNhn_Slw; .AspNetCore.Antiforgery.MAT0zgqzAd4=CfDJ8FWxvE2ikE1EjQxiKfnQusi2zi-ur2OFp4CFeqzK8gaJZ5CP7jyEO0BUtaMccMBm7o5heAAL9KxnWNb9rkvZhFGsv3IcBFKO4c_sUiPLiS9kVjotyyKRranjZOOkIUBzmV-LVvFtt672XXYr9l1E2ag; .AspNetCore.Antiforgery.D6ymX2i0xDQ=CfDJ8FWxvE2ikE1EjQxiKfnQushbwoXM155qcQ55Lt76JbH3OHaqAVnI0e3qsNBozrlr982HgPlTbDixyit0ZuVr6Lz6_f3BuZoTSILgzLWAzLUblfVcevZIh2fcm_NFvaUMFqb_0AIQx8Jk6nfNd6F-9yU; CSRF-TOKEN=CfDJ8FWxvE2ikE1EjQxiKfnQusg-JIG-VCsvh-X__iDkYiy1-oT0olfY00C0OWne1F4Irxh4O054ApMhntEi7IdY3tZy8B_Crs7PSyAK1au3XZnZqCK2mclFMCUVqhJHXV_8qetRvKZhIN8hCPTD5yZnDdY; .AspNetCore.Antiforgery.WYcEegvIlRY=CfDJ8FWxvE2ikE1EjQxiKfnQusijGINuuQIZVqYAB0_xMZ0CiRJuAU3TIJ3RRf8o5Epi0sbw6KM_LAb8GY7R57atZsv-QxPG9zsBTV2dzyhb6ILCPDWAqK5_mdZUD4pzskp_5_YxX8V7dOUcG78-sg9QHdw; .AspNetCore.Antiforgery.kJlxBuqQZrs=CfDJ8FWxvE2ikE1EjQxiKfnQusi4YTmiu9GodEQdcfen_zTWOV-vHzg0O4_5b5x_G13VN-alXX2DGdV89VPFUYoMcWPudPJoSAdw3-ai86M2PlvAb-eeO72axUQ5YRfNfxIc3orZWWBhghDcw5Nto95ofR4; .AspNetCore.Antiforgery.t5ViB1gXHPw=CfDJ8FWxvE2ikE1EjQxiKfnQusiUYGYVcBqEYxLuUVlaPKa7bX5wJoMHaaP25Gsp7c5ilGLP-FsUJSx50rmiR8u7vLfXmEJsknMRlvKP0PudePC0Q5J-cUoHcIysXTJ4i9vFAI0mxpy0oVAj_t9zuqAd38M; .AspNetCore.Antiforgery.=CfDJ8FWxvE2ikE1EjQxiKfnQusgU93PUGHGxyP_4zvV4qoq1oBAjwOjGAqsYJD5a_rbqVYu5Hj4xJjkKMm8Gs-k-NOWHmq1UBjOiobskxqSUIxnVwvvfZ86_NArWJbMr2hOFQNlBEuOmm7IZy4GVLjgBp6M; __Host-X-CSRF=CfDJ8FWxvE2ikE1EjQxiKfnQusg6ithS8lYCUiI0WGXfhFm-rN5DLBtd6NYVGLuDSZlijx7SrEQvIFY8ywdw4W975Gj2kT7iNbpK8nefmKw49xwHFo-4f1XoKY8IulinHkPoITkayUoiKrtdfkdwV2B-RPo; XSRF-TOKEN=CfDJ8FWxvE2ikE1EjQxiKfnQusiu57vnH1yWZ3TPGdNIWZMGHQJCNEEzcFF626nB48td9C3zSdzas_0bbrfezMyck-7Ada7EV6R5HpC5Vhno2i_uKdrPMTASgYD4K9upWvvvicT7D0E4xoFjD2Df2xggX_o; .AspNetCore.Antiforgery.T1Qki5hDfG4=CfDJ8FWxvE2ikE1EjQxiKfnQush0IgwsHkDAA5bKIRaclhcvBcTHS1I0XwgGHO_jiofid97o-xAnH5WkOwu-8sSe4kw_DRynbgpdE67CLm8o0fmLN0HbKNvD64hgfsnoC6FUkxnbjAg0s8IcH4cb8Z8cl0Y; .AspNetCore.Antiforgery.eL9x9N167S4=CfDJ8FWxvE2ikE1EjQxiKfnQusiuoBrAPXYqlCuCaFOggaVs_3weeugg804zPWL_teRMUzektdKDSdcQ-uX32vA6onZs0FKCQvWynOtZnENmJTes7ym1A8s-IBgYbkVAf11_iRnipQTtP_uRXyS0Sy9Y35E; .AspNetCore.Antiforgery.phQmEkrK8jQ=CfDJ8FWxvE2ikE1EjQxiKfnQushyOqX8H2kLeNdbU8MIUxo3Xk8_32ViMfekapcqZ6YkefYy9wXvrkq3wuU2bg42dJft6Q1YuwsRzZxzgNgsTb7-njE_kOWGfhAjkTjXhZJA_UgqG2EuERMgARuv5jZ2J0A; ASP.NET_SessionId=gke51aqbb5h5tnue5hmsmbdg; _gcl_au=1.1.756372211.1750344001; .AspNetCore.Antiforgery.5tzYQJxiQzw=CfDJ8FWxvE2ikE1EjQxiKfnQusiGHeGZr3Zg7S-EbBabowdhct4A8LFSDKcAHpQc6XXLN0BTLpeVlFtfUOpfjY5ZV7UPeCOnXt9dRWnWG9y0Sf0slJ6est1NdQtgHYzZGdrP0C06tPBKYhClW6KKO5Ab2Z0; .AspNetCore.Antiforgery._I4uxlErmN8=CfDJ8FWxvE2ikE1EjQxiKfnQushEHXmN-27e_voGzP8KgmfP7Ku8rf0lF_EO0oXDw8_XAhnGTzPijaRettxeGtLiQxV5-JdaMNGItpnXinpWzF84viiajMacwj01sKIklR6pNDRNKrzxc9R_kLi_CsL_bpI; .AspNetCore.Antiforgery.aAUx7_Wr4UM=CfDJ8FWxvE2ikE1EjQxiKfnQusgGAUxsv3VpDzgRbgs3sL29zOzfzuxhu24T4kM2da8hNmvb2I3-mOdxIRsNip1-b99HrFiiLc-tvM8kvFfCGWtHdT4oA0war3bnLcyAHZS4nP-Ia2detblSrZeQpO1sHoE; .AspNetCore.Antiforgery.MNNZfym4qBE=CfDJ8FWxvE2ikE1EjQxiKfnQushq5RnwphqkveBPKyzS6IlVoqzFgTBSe0Fs9QltetUdMre09eYRRuaQ68OoCbueXQvUVBVAixdeVDDaOPZQdkoVoEosD6K4nH_SjpeNZZyA_mshOWl6oFAszgq5bBmtK34; __next_hmr_refresh_hash__=7fe1491a60616ff6d5b97e467a1cfd94633457081244afec; .AspNetCore.Identity.Application=CfDJ8P_SUhKqPFJIsNvS2d1n0Sav33id-QRVxMvPTXF-cPHr9b2XvZftGuiRJDAgbtgvOAyfRg0e9t70HcckEKdIkVYQhwUf4SSNGU8IAT-Oaa4EA-_JOjwwVjHVn3mkZVw6Bg5x3C7nRdnO1rBJhXIkfq_Afu4qGJlcgZCej52mMK-BsfZq4tJLJSbyYkVfhwuGDsSeP-4y1TiTryBpPyGxyf7abR17LlztvA-7oc3sl1070OvzPYxND4X0wODRl0tyT4G5-UAh7rYPUK12VOPQTycMXCoZsLXRo4vru78iK0UBk5FeX-9AD2iS652mF4lmCenI_7H5m0CB5s9Ygdj7Coiwx9MaLTu2hrAO9Fbp58wS0DvkB4ZfV7KkjBYZKcYN2xC_3v_FOsiKidQBQEEVwHqmmocBCcu8qFdsnXAJASK3EEdClgi6KHNh-TEaC5Zf0qFc1VYgqn_v_uA-HnsyUU5ImAVoSuo34WL9t7oz2X3JhET504mbm1rnE9Wf-9zpbG42tKJSqTpIe0HGb6al5vabsxp4G80RaoNnXBXoRwc7tQWaIbgpF60NvP_4NY4IDB6P0nH2bcjUVjQ5BrLldrhrhujn-ENZIuhcFDf-cTy1xG_ZA4z7mVPLCpdyZhS04nTNOIQXGOqCmaz_0lEIWT_1tfyGOyOcd16OlqXoOZe5J94c4a7GcWnXJP8pRzAgpdw-OyCRufqA1tJYgd9U0zLGgLVkOl-OGlvuasL8mU3NmO-fwSWtYLE0rrwMulhiu4UcmGKijSz6qn_WA1ru2fa1HMpSl_kAcV198TFGqF9xvK327GoAoWSm3sgMrDO4RXPEcratPlhDHhRJSmpotiKPOmhcdI9FqMdM5EJek6Fd; DigiInsureNcb=CfDJ8P_SUhKqPFJIsNvS2d1n0SaoeouAnR8JXaOBOzxV1sFnOmzBrhSv5W3ZP08RSXCLhMpX24Q-5b4O4tx3ApS7mbvvloNVcCCuBnlCZ5sN2odsVSDhEqbb3yFwsNArUGrjrFH_SV700Qi914wwuU63fNZQz2vn5kBcaneHbzWl6EclVwUnhsHbkxwSLvklo30w-RW6IfIjmxUrosKn2kG_W2FFOUD0YM7k_LJ-x5zOPpdbAz7DqGhgtl2t4k03PvRC5GkJXtyZswLynE2OXeEB6GX5bJ7vaYdn2uv8AwNyywL7gEL6aoikp3j_FobS1xe0UYEjM0msBCwvHUvJLbE5C_0; _ga_2NHKCE7933=GS2.1.s1751615810$o97$g1$t1751617295$j37$l0$h0
+  Host: localhost:7015
+  priority: u=1, i
+  Referer: https://localhost:7015/swagger/index.html
+  sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+  sec-ch-ua-mobile: ?0
+  sec-ch-ua-platform: "Windows"
+  sec-fetch-dest: empty
+  sec-fetch-mode: cors
+  sec-fetch-site: same-origin
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+📥 RESPONSE
+----------------------------------------
+Status Code: 200 OK
+Content Type: application/json; charset=utf-8
+
+📋 Response Headers:
+  Content-Type: application/json; charset=utf-8
+
+📄 Response Body:
+{
+  "id": 2,
+  "symbol": "TSLA",
+  "companyName": "Tesla",
+  "purchase": 100.00,
+  "lastDividend": 1.10,
+  "industry": "Automotive",
+  "marketCap": 2345999999,
+  "comments": []
+}
+
+================================================================================
+
+================================================================================
+🌐 HTTP REQUEST/RESPONSE LOG
+📅 Timestamp: 2025-07-06 12:42:10.042 ((UTC+03:00) Nairobi)
+🔍 Trace ID: 0HNDSDR4BT8DS:00000001
+⏱️  Duration: 202ms
+================================================================================
+
+📤 REQUEST
+----------------------------------------
+Method: GET
+Path: /api/stock/2
+Remote IP: ::1
+User Agent: PostmanRuntime/7.44.1
+
+📋 Request Headers:
+  Accept: */*
+  Accept-Encoding: gzip, deflate, br
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Host: localhost:7015
+  Postman-Token: dd25e80d-4b4d-4d2c-9c1c-1396715f5bfe
+  User-Agent: PostmanRuntime/7.44.1
+
+📥 RESPONSE
+----------------------------------------
+Status Code: 200 OK
+Content Type: application/json; charset=utf-8
+
+📋 Response Headers:
+  Content-Type: application/json; charset=utf-8
+
+📄 Response Body:
+{
+  "id": 2,
+  "symbol": "TSLA",
+  "companyName": "Tesla",
+  "purchase": 100.00,
+  "lastDividend": 1.10,
+  "industry": "Automotive",
+  "marketCap": 2345999999,
+  "comments": []
+}
+
+================================================================================
+
